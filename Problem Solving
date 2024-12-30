@@ -1,0 +1,11 @@
+int applyOperations(vector <string> operations){
+    int num = 0;
+    for(auto &operation: operations){
+        if(operation == "++"){
+            num++;
+        } else {
+            num--;
+        }
+    }
+    return num;
+}
